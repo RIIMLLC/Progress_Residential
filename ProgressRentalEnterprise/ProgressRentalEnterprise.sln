@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{98B58491-6B0F-42C0-803B-C34462550D47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{7CD1C073-3A43-47D2-B1D2-2C557A1EDEF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E74D3588-7A04-4E09-B39E-B31EFCD084D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{8ED7248B-2E53-4302-BB58-88445EA30DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental.Business", "Progress.Rental.Business\Progress.Rental.Business.csproj", "{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental.DataAccess", "Progress.Rental.DataAccess\Progress.Rental.DataAccess.csproj", "{E046C27A-420D-4F73-96A9-02AD22426BC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{142B52D2-B3E8-454D-B761-9DA3B236E458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental.Model", "Progress.Rental.Model\Progress.Rental.Model.csproj", "{A655FAB8-6E1B-41D8-A8FF-C32DC5837291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental.BusinessTest", "Progress.Rental.BusinessTest\Progress.Rental.BusinessTest.csproj", "{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental", "Progress.Rental\Progress.Rental.csproj", "{F702ECB2-8542-41EA-B4F4-0E7B974E64A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress.Rental.Logger", "Progress.Rental.Logger\Progress.Rental.Logger.csproj", "{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{468DD933-979F-44FE-8F37-F002E3759736}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\Microsoft.Practices.EnterpriseLibrary.Common.dll = ThirdParty\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		ThirdParty\Microsoft.Practices.EnterpriseLibrary.Data.dll = ThirdParty\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		ThirdParty\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll = ThirdParty\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+		ThirdParty\Microsoft.Practices.EnterpriseLibrary.Logging.dll = ThirdParty\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+		ThirdParty\Microsoft.Practices.ServiceLocation.dll = ThirdParty\Microsoft.Practices.ServiceLocation.dll
+		ThirdParty\Microsoft.Practices.Unity.dll = ThirdParty\Microsoft.Practices.Unity.dll
+		ThirdParty\Microsoft.Practices.Unity.Interception.dll = ThirdParty\Microsoft.Practices.Unity.Interception.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E046C27A-420D-4F73-96A9-02AD22426BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E046C27A-420D-4F73-96A9-02AD22426BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E046C27A-420D-4F73-96A9-02AD22426BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E046C27A-420D-4F73-96A9-02AD22426BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A655FAB8-6E1B-41D8-A8FF-C32DC5837291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A655FAB8-6E1B-41D8-A8FF-C32DC5837291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A655FAB8-6E1B-41D8-A8FF-C32DC5837291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A655FAB8-6E1B-41D8-A8FF-C32DC5837291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F702ECB2-8542-41EA-B4F4-0E7B974E64A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F702ECB2-8542-41EA-B4F4-0E7B974E64A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F702ECB2-8542-41EA-B4F4-0E7B974E64A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F702ECB2-8542-41EA-B4F4-0E7B974E64A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E84D8C5-C4D1-4C0B-BA81-F1E0E70AA35E} = {98B58491-6B0F-42C0-803B-C34462550D47}
+		{A655FAB8-6E1B-41D8-A8FF-C32DC5837291} = {98B58491-6B0F-42C0-803B-C34462550D47}
+		{459E08EF-95B0-4BB1-93BA-BA3CD49BF4D9} = {98B58491-6B0F-42C0-803B-C34462550D47}
+		{E046C27A-420D-4F73-96A9-02AD22426BC6} = {7CD1C073-3A43-47D2-B1D2-2C557A1EDEF3}
+		{D5B36DDC-A2CE-4C45-86F5-25E65CE8D040} = {8ED7248B-2E53-4302-BB58-88445EA30DA3}
+		{F702ECB2-8542-41EA-B4F4-0E7B974E64A8} = {142B52D2-B3E8-454D-B761-9DA3B236E458}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

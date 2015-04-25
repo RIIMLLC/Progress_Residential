@@ -1,0 +1,958 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body {
+    /*font-family: 'calluna';*/
+    background-color: #EFEEEC;
+}
+
+#features {
+    text-align: center;
+}
+
+    #features img {
+        margin: 0 0 20px;
+    }
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+.transparent {
+    background: rgba(255,255,255,0.5);
+}
+
+.transparentblack {
+    background: rgba(0,0,0,0.2);
+}
+
+.menuHelpBtn {
+    border: 0px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+    margin-top: 0;
+}
+
+    .well .page-header h1 {
+        margin-top: 0;
+        color: yellow;
+    }
+
+    .well .page-header h2 {
+        margin-top: 0;
+        color: grey;
+    }
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.middleRow {
+    text-align: center;
+}
+
+    .middleRow h2 {
+        text-align: center;
+        color: yellow;
+    }
+
+.grid6 {
+    margin-top: 20px;
+}
+
+.SearchHeader {
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 24px;
+    padding-top: 15px;
+    height: 60px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.Searchtext {
+    background: #79d214;
+    font-size: 16px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.searchTextbox {
+    border: 1px;
+    border-color: black;
+    vertical-align: middle;
+}
+
+.searchButton {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+.navbar.transparent {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0,0,0,0.00)),color-stop( 100%, rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    color: #000; /*Sets the text hover color on navbar*/
+}
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
+}
+
+.navbar {
+    background-color: #0f006f;
+    border-color: #030033;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent; /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+}
+
+
+.navbar .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/*#myCarousel {
+	margin-top: 0px;
+}*/
+
+.carousel-caption {
+    font-size: 24px;
+}
+
+    .carousel-caption h4 {
+        font-size: 32px;
+        color: yellow;
+        background: rgba(0,0,0,0.5);
+        width: 50%;
+    }
+
+    .carousel-caption p {
+        width: 75%;
+        font-size: 32px;
+        color: whitesmoke;
+        background: rgba(0,0,0,0.5);
+    }
+
+#myCarousel .item {
+    height: 400px;
+}
+
+#slide1 {
+    background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+    background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+
+.well {
+    margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+    margin: 20px 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+    .thumbnail h3 {
+        font-size: 16px;
+        margin: 0 0 10px;
+        line-height: 20px;
+    }
+
+    .thumbnail .price {
+        font-size: 22px;
+        position: absolute;
+        top: 4px;
+        right: 15px;
+        padding: 10px;
+    }
+
+        .thumbnail .price sup {
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+    .thumbnail span.glyphicon {
+        margin-right: 5px;
+    }
+
+input[type="text"] {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    background-color:#79D214;
+    color:#ffffff;
+}
+
+    input[type="text"].sedet {
+        width: 350px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+    }
+
+    input[type="text"].rent {
+        width: 70px;
+        height: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+    }
+
+    input[type="text"]#city {
+        width: 300px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+    }
+
+input[type="submit"] {
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    input[type="submit"].homser {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    input[type="submit"]#searc {
+        clear: both;
+        float: right;
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 75px 0px 0px;
+    }
+
+
+.propertyHeader {
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.propertyHeaderleft {
+    background-color: #74c913;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.propertyMiddle {
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.propertybottom {
+    height: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.searchheaderFixed {
+    padding-top: 40%;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px ) {
+
+    /*
+    .thumbnail .price {
+        font-size: 14px;
+    }
+
+        .thumbnail .price sup {
+            font-size: 10px;
+        }
+*/
+
+    .thumbnails {
+	    margin: 20px 0;
+        height:100px;
+    }
+
+    .thumbnail {
+	    position: relative;
+    }
+
+    .thumbnail h3 {
+	    font-size: 16px;
+	    margin: 0 0 10px;
+	    line-height: 20px;
+    }
+
+    .thumbnail .price {
+	    font-size: 22px;
+	    position: absolute;
+	    top: -10px;
+	    right: -10px;
+	    padding: 10px;
+    }
+
+    .thumbnail .price sup {
+	    font-weight: normal;
+	    font-size: 12px;
+    }
+
+    .thumbnail span.glyphicon {
+	    margin-right: 5px;
+    }
+
+    .SearchHeader {
+        text-align: center;
+        background: #fff;
+        opacity: 0.8;
+        color: #000;
+        font-size: 12px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .Searchtext {
+        background: #79d214;
+        font-size: 8px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .Searchtextbottom {
+        background: #fff;
+        font-size: 8px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .searchTextbox {
+        border: 1px;
+        border-color: black;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .searchButton {
+        display: inline-block;
+        padding: 1px 2px;
+        margin-bottom: 0;
+        font-size: 8px;
+        font-weight: 200;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        height: 20px;
+    }
+
+    input[type="text"] {
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #999;
+        vertical-align: middle;
+    }
+
+    input[type="submit"] {
+        width: 50px;
+        height: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    input[type="text"].sedet {
+        width: 350px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+    }
+
+    input[type="text"].rent {
+        width: 70px;
+        height: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+        text-indent: 5px;
+        margin-left: 3px;
+    }
+
+    input[type="text"]#city {
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #999;
+        vertical-align: middle;
+    }
+
+
+    input[type="submit"].homser {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    input[type="submit"]#searc {
+        clear: both;
+        float: right;
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 75px 0px 0px;
+    }
+
+    .searchheaderFixed {
+        padding-top: 30%;
+    }
+}
+
+
+@media (min-width: 480px ) {
+    .searchheaderFixed {
+        padding-top: 30%;
+    }
+
+    /*
+    .thumbnail .price {
+        font-size: 14px;
+    }
+
+        .thumbnail .price sup {
+            font-size: 10px;
+        }
+*/
+
+    .thumbnails {
+	    margin: 20px 0;
+        height:100px;
+    }
+
+    .thumbnail {
+	    position: relative;
+    }
+
+    .thumbnail h3 {
+	    font-size: 16px;
+	    margin: 0 0 10px;
+	    line-height: 20px;
+    }
+
+    .thumbnail .price {
+	    font-size: 22px;
+	    position: absolute;
+	    top: 4px;
+	    right: 15px;
+	    padding: 10px;
+    }
+
+    .thumbnail .price sup {
+	    font-weight: normal;
+	    font-size: 12px;
+    }
+
+    .thumbnail span.glyphicon {
+	    margin-right: 5px;
+    }
+
+    .SearchHeader {
+        text-align: center;
+        background: #fff;
+        padding-top: 10px;
+        color: #000;
+        font-size: 16px;
+        height: 50px;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .Searchtext {
+        background: #79d214;
+        font-size: 10px;
+        height: 50px;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .Searchtextbottom {
+        background: #fff;
+        font-size: 10px;
+        height: 50px;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .searchTextbox {
+        border: 1px;
+        border-color: black;
+        vertical-align: middle;
+        text-align: center;
+        height: 30px;
+    }
+
+    .searchButton {
+        display: inline-block;
+        padding: 2px 4px;
+        margin-bottom: 0;
+        font-size: 8px;
+        font-weight: 200;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        height: 30px;
+    }
+
+    input[type="text"] {
+        width: 150px;
+        height: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #ffffff;
+        vertical-align: middle;
+        text-align: left;
+         background-color:#79D214;
+        color:#ffffff;
+        margin-top: 10px;
+    }
+
+    input[type="submit"] {
+        width: 50px;
+        height: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #3E7B7C;
+        color:#ffffff;
+    }
+
+    input[type="text"].sedet {
+        width: 350px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #999;
+    }
+
+    input[type="text"].rent {
+        width: 70px;
+        height: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid #999;
+        text-indent: 5px;
+        margin-left: 3px;
+    }
+
+    input[type="text"]#city {
+        width: 150px;
+        height: 20px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #999;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+
+    input[type="submit"].homser {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    input[type="submit"]#searc {
+        clear: both;
+        float: right;
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 75px 0px 0px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) {
+
+    .searchheaderFixed {
+        padding-top: 30%;
+    }
+
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+    }
+
+    .carousel-caption {
+        font-size: 16px;
+    }
+
+        .carousel-caption h4 {
+            font-size: 22px;
+        }
+
+    .SearchHeader {
+        text-align: center;
+        background: #fff;
+        opacity: 0.8;
+        color: #000;
+        font-size: 20px;
+        padding-top: 15px;
+        height: 75px;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .Searchtext {
+        background: #79d214;
+        font-size: 10px;
+        height: 75px;
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 2px;
+    }
+
+    .Searchtextbottom {
+        background: #fff;
+        font-size: 10px;
+        height: 75px;
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+        padding-top: 2px;
+    }
+
+
+    .searchTextbox {
+        border: 1px;
+        border-color: black;
+        padding-top: 10px;
+        vertical-align: middle;
+        height: 30px;
+    }
+
+    .searchButton {
+        display: inline-block;
+        padding: 3px 8px;
+        margin-bottom: 0;
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 1px;
+        height: 30px;
+    }
+
+    input[type="text"] {
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid #ffffff;
+        text-align: left; 
+        background-color:#79D214;
+        color:#ffffff;
+    }
+
+        input[type="text"].rent {
+            width: 70px;
+            height: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #999;
+            vertical-align: middle;
+            text-align: left;
+            text-indent: 5px;
+            margin-left: 3px;
+        }
+
+        input[type="text"]#city {
+            width: 200px;
+            height: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #999;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+
+    input[type="submit"] {
+        width: 70px;
+        height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    .searchHeaderFixed {
+        padding-top: 22%;
+    }
+
+    #myCarousel .item {
+        height: 500px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+    }
+
+    .SearchHeader {
+        text-align: center;
+        background-color: #fff;
+        opacity: 0.8;
+        color: #000;
+        font-size: 36px;
+        padding-top: 15px;
+        height: 90px;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .Searchtext {
+        background: #79d214;
+        font-size: 20px;
+        height: 90px;
+        padding: 20px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .Searchtextbottom {
+        background: #fff;
+        font-size: 20px;
+        height: 90px;
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+    .searchTextbox {
+        border: 1px;
+        border-color: black;
+        vertical-align: middle;
+        height: 60px;
+    }
+
+    .searchButton {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        height: 60px;
+    }
+
+    input[type="text"] { 
+        width: 400px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid #ffffff;
+        vertical-align: middle;
+        text-align: left;
+        background-color:#79D214;
+        color:#ffffff !important;
+        margin-top: 10px;font-family: "sofia-pro",sans-serif;
+    }
+
+        input[type="text"].rent {
+            width: 70px;
+            height: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #999;
+            vertical-align: middle;
+            text-align: left;
+            text-indent: 5px;
+            margin-left: 3px;
+        }
+
+        input[type="text"]#city {
+            width: 250px;
+            height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            border: 1px solid #999;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+    input[type="submit"] {
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #3E7B7C;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+}

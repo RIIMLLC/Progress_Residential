@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Progress.master.cs" Inherits="Progress.Rental.Views.Shared.Progress" %>
+<!DOCTYPE html>
+<html class="js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-calluna-n4-inactive wf-calluna-n7-inactive wf-sofiapro-i4-inactive wf-sofiapro-i7-inactive wf-sofiapro-n4-inactive wf-sofiapro-n7-inactive wf-calluna-i4-inactive wf-calluna-i7-inactive wf-inactive" lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    
+    <meta name="viewport" content="width=device-width" />
+        <%: Styles.Render("~/Content/sitecss") %>
+        <%: Scripts.Render("~/Scripts/jquery-1.7.1.js") %>
+        <%: Scripts.Render("~/Scripts/jquery-1.7.1.min.js") %>
+        <%: Scripts.Render("~/Scripts/jquery-ui-1.8.20.min.js") %>
+         <%: Scripts.Render("~/Scripts/jquery.cycle.all.js") %>
+        <%: Scripts.Render("~/bundles/jqueryui") %>
+        <%: Scripts.Render("~/bundles/OtherJS") %>
+        <%: Scripts.Render("~/bundles/jqueryval") %>
+        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: Scripts.Render("~/bundles/js") %>
+        <%: Scripts.Render("~/bundles/modernizr") %>
+
+        <script src="//use.typekit.net/epw6hwg.js"></script>
+        <script>try { Typekit.load(); } catch (e) { }</script>
+        <script src="//use.typekit.net/epw6hwg.js"></script>
+        <script>try { Typekit.load(); } catch (e) { }</script>
+</head>
+<body class="notransition no-hidden">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    <link href="../../Content/css/bootstrap_002.css" rel="stylesheet">
+    <link href="../../Content/css/styles.css" rel="stylesheet">
+    <link href="../../Content/css/newsk.css" rel="stylesheet">
+    <script src="../../Scripts/js/bootstrap_002.js"></script>
+    <script src="../../Scripts/js/epw6hwg.js"></script>
+    <script>try { Typekit.load(); } catch (e) { }</script>
+   
+    <!-- Footer -->
+    <div class="home-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                        <a class="navbar-brand" href="../Home">
+                        <img src="../../Images/SiteImages/logo1.png" style="padding-left:30px; width: 180px;height: 45px;"></a>
+                </div>   
+
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                    <div class="osLight footer-header">Company</div>
+                    <ul class="footer-nav pb20">
+                        <li><%: Html.ActionLink("About", "About", "Home") %>
+                        <li><%: Html.ActionLink("Contact Us", "ContactUs", "Home") %></li>
+                        <li><%: Html.ActionLink("Terms & Privacy","Term","Home")%></li>
+                        <li> <%: Html.ActionLink(" Help", "Help", "Home") %>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="osLight footer-header">Log Ins</div>
+                    <ul class="footer-nav pb20">
+                        <li><a href="https://rentprogress.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx" target="_blank">Residents</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="osLight footer-header">Join Our Team</div>
+                    <ul class="footer-nav pb20">
+                        <li><%: Html.ActionLink("Careers","Careers","Home")%></li>
+                    </ul>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright fbold fsize14 opa8">© 2015 Progress Residential &nbsp;&nbsp;&nbsp;<a href="../Home/Term" class="fbold fsize14">Terms &amp; Privacy </a></div>
+        </div>
+        </div>
+    </div>    
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+    <asp:ContentPlaceHolder ID="ScriptsSection" runat="server" />
+</body>
+</html>

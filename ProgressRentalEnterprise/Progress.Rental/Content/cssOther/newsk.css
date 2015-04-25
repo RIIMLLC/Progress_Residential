@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.home-content h2 {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    color: #3f7b7d !important;
+    font-family: "sofia-pro",sans-serif;
+}
+
+.greenwrap {
+    padding-top: 30px;
+    background-image: url(../../Images/SiteImages/greenbg.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+/*added new css code to change greem bg image in Aboutus page (Below) on 14_04_15*/
+.greenwrap_1 {
+    padding-top: 30px;
+    background-image: url(../../Images/SiteImages/greenbg_1.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+/*end here*/
+.greenwrap h1 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: "sofia-pro",sans-serif;
+}
+
+.greenwrap p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 50px;
+    line-height: 35px;
+    text-align: left;
+    font-family: "calluna";
+}
+
+.greenwrap img {
+    width: 100%;
+    padding-top: 143px;
+}
+
+.grnsearchwrap {
+    float: left;
+    padding-bottom: 110px;
+}
+
+.grnsearch {
+    width: 355px !important;
+    height: 55px !important;
+    background-color: #79d214;
+    border: solid 1px #fff;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 15px;
+    float: left;
+    margin-top: 0px !important;
+}
+
+.grnbtn {
+    width: 170px !important;
+    height: 55px !important;
+    background-color: #3f7b7d;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    border: none;
+    color: #fff;
+}
+
+.testiwrap {
+    background-image: url(../../Images/SiteImages/test-bg.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+    .testiwrap .nav-tabs, .nav-tabs.nav-justified {
+        background: none;
+        border: none;
+    }
+
+        .testiwrap .nav-tabs > li > a {
+            background: none;
+            color: #3f7b7d;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .testiwrap .nav-tabs > li.active {
+            background: none;
+        }
+
+            .testiwrap .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+                border: none;
+            }
+
+            .testiwrap .nav-tabs > li.active > a,
+            .no-touch .nav-tabs > li.active > a:hover,
+            .nav-tabs > li.active > a:focus {
+                border-bottom: 1px solid #838382 !important;
+                background: none;
+                color: #838382 !important;
+            }
+
+    .testiwrap .no-touch .nav-tabs > li > a:hover {
+        border: none !important;
+    }
+
+    .testiwrap .no-touch .nav-tabs > li > a:hover {
+        border-color: transparent;
+        background: none;
+        color: #fff !important;
+        border-bottom: 0px solid #d9d9d9 !important;
+    }
+
+    .testiwrap .nav-tabs > li.active > a,
+    .no-touch .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus {
+        cursor: default;
+        background: none;
+        border: 0 none;
+    }
+
+    .testiwrap .nav-tabs {
+        padding-top: 150px;
+    }
+
+.home-footer {
+    background-image: url(../../Images/SiteImages/greenbg.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+.opa8 {
+    padding-bottom: 30px;
+}
+
+.home-content {
+    padding-top: 50px;
+}

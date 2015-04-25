@@ -1,0 +1,335 @@
+﻿
+#hero-container1 {
+    background-color: #ffffff;
+    /*background-color: #000;*/
+    height: auto;
+    position: relative;
+	padding-bottom:20px;
+}
+
+.home-header1 {
+    position:relative;
+    /*width: 100%;*/
+    padding: 30px;
+    /*color: #fff;*/
+      width: 1140px;
+    margin: 0 auto;
+    top: 0;
+    /*position: absolute;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1000;*/
+    /*background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */*/
+    /*background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */*/
+    /*background: -o-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */*/
+    /*background: -ms-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* IE10+ */*/
+    /*background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* W3C */*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */*/
+}
+    
+
+.home-nav1 ul li a {
+    color: #000;
+}
+
+.form-group1 {
+  margin-bottom: 15px;
+  float: left;
+/*  margin-left:30px;*/
+ 
+}
+
+.form-control2 {
+  
+  display: block;
+  width: 250px;
+  height: 37px;
+  padding: 2px 0px 2px 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #003399;
+  background-image: none ;
+  border: none;
+ 
+  /*border: 1px solid #dfdfdf;
+  border-radius: 2px;*/
+  /*-webkit-appearance: none;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+}
+
+.form-control1 {
+  
+  display: block;
+  width: 250px;
+  height: 37px;
+  padding: 2px 0px 2px 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #333;
+  background-color: #fff;
+  background-image: none ;
+  
+}
+
+.form-control3 {
+  
+  display: block;
+  width: 250px;
+  height: 37px;
+  padding: 2px 0px 2px 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #006600;
+  background-image: none ;
+  border: none;
+ 
+  /*border: 1px solid #dfdfdf;
+  border-radius: 2px;*/
+  /*-webkit-appearance: none;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+}
+
+.form-control4 {
+  
+  display: block;
+  width: 250px;
+  height: 37px;
+  padding: 2px 0px 2px 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color:#000000;
+  background-color: #fff;
+  background-image: none ;
+  border:#000000;
+  border-style: solid;
+  border-width: 1px;
+ 
+  /*border: 1px solid #dfdfdf;
+  border-radius: 2px;*/
+  /*-webkit-appearance: none;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+}
+
+.home-testim1 {
+    /*margin-right: 70px;*/
+    padding-top: 10px;
+}
+.home-testim1-text {
+    padding-bottom: 5px;
+    text-align:center;
+	font-family: "calluna",serif;
+	font-size:16px;
+}
+.home-footer1 {
+    background-color: #79d214;
+    /*color: #494a4a;*/
+	padding:0;
+   
+}
+.home-footer2 {
+  
+	background-image:url(../../Images/SiteImages/bg4.jpg);
+   
+}
+.home-footer3 {
+ 
+ background-color:#000000;
+   
+}
+
+
+
+
+/*  ////////////////////////////  About us  //////////////////////////*/
+
+
+.searchfield{
+	width:315px;
+	height:42px;
+	border:solid 1px #c4c4c4;
+	margin-top:30px;
+}
+.zooom{
+	width: 17px;
+	height: 17px;
+	background-image: url(../../Images/SiteImages/zoom.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	float:left;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+.seearch{
+	width:260px !important;
+	height:40px !important;
+	float:left;
+	font-size:16px !important;
+	background:none !important;
+	margin-top:0px !important;
+	color:#333 !important;
+}
+
+/*About US End*/
+
+/***************************help started*******************************/
+
+.my_home-footer1
+{
+	background:url(../../Images/SiteImages/header_bgg.jpg) repeat;
+    /*color: #494a4a;*/
+	padding:0;
+	width:100%;
+	
+}
+.my_form-group1 {
+
+    margin-bottom: 15px;
+    margin:auto;
+	width: 43%;
+}
+
+.my_input-group-addon
+{
+	background:#fff !important;
+}
+.srch_imgg
+{
+	width:13%;
+}
+
+.my_input-group
+{
+	width:90%;
+	margin: auto;
+
+}
+.my_txtfld
+{
+	background: none repeat scroll 0 0 #fff !important;
+    float: left;
+    width: 100% !important;
+	margin-top:0px !important;
+	color:#555a5c !important;
+	font-size:17px !important;
+}
+.my_imm
+{
+	width:11%;
+	float:left;
+}
+.my_fld
+{
+	width:84%;
+	float:left;
+}
+
+.my_form-inline
+{
+	width:98%;
+}
+.help_bar
+{
+	width:100%;
+	padding:5px;
+	color:#3f7b7d;
+	font-size: 30px;
+	font-weight:bold;
+	margin-bottom:50px;
+}
+.help_cntnt
+{
+	width:100%;
+	float:left;
+}
+.left_sidebx
+{
+	width:62%;
+	float:left;
+	margin-right:50px;
+}
+.left_sidebx h1
+{
+	font-size:35px;
+	font-family: "sofia-pro",sans-serif;
+	font-weight: bold;
+	
+}
+
+.left_sidebx h2
+{
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:30px;
+	color:#555555;
+}
+.left_sidebx p
+{
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:30px;
+	margin-top:20px;
+	color:#555555;
+}
+
+.left_sidebx h3
+{
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#555555;
+	font-weight: 700;
+}
+.rgt_side_bx
+{
+	width:30%;
+    padding-left:20px;
+	padding-right:20px;
+	background:#fff;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.rgt_side_bx h1
+{
+    font-size:24px;
+	color:#555555;
+	 font-weight: bold;
+	
+}
+.rgt_side_bx p
+{
+    font-size:15px;
+	color:#3f7b7d;
+	 line-height: 30px;
+	
+}
+
+.upper_link
+{
+	color:#1f1f1f;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#my_hero-container1 {
+    background-color: #ffffff;
+    /*background-color: #000;*/
+    height:auto;
+    position: relative;
+	padding-bottom: 35px;
+}
+/***************************help ended*******************************/

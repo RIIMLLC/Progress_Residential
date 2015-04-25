@@ -1,0 +1,163 @@
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+C:\Users\Jona\Desktop\ProgressRentalEnterprise_Responsive_30-03-2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+E:\Progress Development\01Apr2015\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+F:\Today's Code\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\ProgressRentalEnterprise_Responsive\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+F:\Daily working files\Apr-2015\06-04-2015\today files 06042014\ProgressRentalEnterprise_06042015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+D:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+E:\abdul_07_04\ProgressRentalEnterprise_06_04_2015_Night\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+E:\Progress\09-04-15\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+D:\RIIM-Projects\Progress\Code\LatestCode\Code Merge\12-04-2015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+F:\RentProgress_Code_13_04_2015\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb

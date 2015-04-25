@@ -1,0 +1,103 @@
+/* FERVOR CREATIVE */
+/* by Anthony Pereira 2015 */
+
+
+.EXAMPLE-FONTS {
+	font-family: "sofia-pro", sans-serif;
+	font-family: "calluna", Calibri, serif;
+}
+
+
+
+/* SEARCH RESULTS PAGE */
+.navbar-brand.alt {
+	max-width: 164px !important;
+  height: 40px;
+  margin-top: 28px;
+}
+.navbar .navbar-nav.alt {
+	padding-top: 25px;
+}
+.navbar .navbar-nav.alt > li > a {
+	color: #555a5c;
+}
+#hero-container1 {
+	padding-bottom: 1px;
+}
+
+
+#ddmenu {
+  width: 100%;
+}
+#ddmenu .container {
+	padding: 0;  
+}
+#ddmenu ul {
+  position: relative;
+  margin: 0;
+}
+#ddmenu ul li {
+	padding: 5px 22px;
+} 
+#ddmenu div.column a {
+	padding: 10px 0;
+	font-size: 20px;
+	display: block;
+	font-weight: 400;
+}
+h3.home-result {
+	font-size: 18px;
+	text-align: right;
+	margin-right: 10px;
+	font-family: "sofia-pro", sans-serif; 
+	font-weight: 800;
+	color: #555a5c;
+}	
+
+
+.property-item .price {
+  line-height: 1em;  
+  font-size: 22px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 800;
+  text-align: right;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  padding: 15px; 
+}
+.property-item {
+    width: 341px;
+    height: 335px;
+  /* width: 345px;
+height: 380px;*/
+}
+.property-item img {
+  width: 345px;
+}
+.property-item .info {
+  padding: 0;
+}
+.property-item .features {
+  padding: 20px 24px;
+  
+  font-family: "sofia-pro", sans-serif;
+  color: #555a5c;
+  font-weight: 800;
+  line-height: 1em;
+}
+.property-item .features span {
+  font-size: 16px;
+  line-height: 1em;
+}
+
+
+
+#hero-container2 .col-lg-7, 
+#hero-container2 .col-lg-5 {
+	padding: 0; 
+} 
+
+
