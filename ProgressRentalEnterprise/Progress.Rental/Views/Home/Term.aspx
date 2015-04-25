@@ -109,7 +109,7 @@
 
                     <p>Regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to your use of the Services must be filed within one (1) year after such claim or cause of action arose, or else that claim or cause of action will be barred forever.</p>
 
-                    <p>You accept sole responsibility for any use of internet facilities conducted or permitted by you or your agents; the conduct of any business, advertising, marketing or sales in connection therewith; and any negligent or illegal act or omission of you or your agents, contractors, employees, or other users or accessees.</p>
+                    <p>You accept sole responsibility for any use of internet facilities conducted or permitted by you or your agents; the conduct of any business, advertising, marketing or sales in connection therewith; and any negligent or illegal act or omission of you or your agents, contractors, employees, or other users or accesses.</p>
 
                     <h3>8.FAIR HOUSING / EQUAL HOUSING OPPORTUNITY</h3>
 
@@ -136,10 +136,10 @@
 
                     <p>
                         Passive Information.<br />
-                        When you visit this Site, we may automatically collect certain information about your activities ("Site Usage Information"). Site Usage Information is information about how our visitors use and navigate thisSite. This includes, for example, the number and frequency of visitors to each web page, the length of their stays, the type of browser each visitor is using to view this Site, the type of operating system each visitor is using, the domain name of each visitor's internet service provider, the visitor's IP address, the address of the website that the visitor came from before visiting this Site, which pages were visited on this Site, what was clicked on, and certain other available information. An IP address is a number that is automatically assigned to your computer whenever you access the internet, which our web servers use to identify where to send the information your computer requests. When you request pages from this Site, our servers log your IP address as well as information about your activities on those pages.
+                        When you visit this Site, we may automatically collect certain information about your activities ("Site Usage Information"). Site Usage Information is information about how our visitors use and navigate this Site. This includes, for example, the number and frequency of visitors to each web page, the length of their stays, the type of browser each visitor is using to view this Site, the type of operating system each visitor is using, the domain name of each visitor's internet service provider, the visitor's IP address, the address of the website that the visitor came from before visiting this Site, which pages were visited on this Site, what was clicked on, and certain other available information. An IP address is a number that is automatically assigned to your computer whenever you access the internet, which our web servers use to identify where to send the information your computer requests. When you request pages from this Site, our servers log your IP address as well as information about your activities on those pages.
                     </p>
 
-                    <p>To collect this Site Usage Information, this Site and any emails sent to you by this Site (or otherwise by Progress) may utilize cookies, web beacons, embedded scripts or similar technologies. "Cookies" are text files that are placed on your computer and may be used to store your personal information. In addition to cookies, Progress may use other now known or later developed technologiesto assist in observing the behavior of users visiting this Site.</p>
+                    <p>To collect this Site Usage Information, this Site and any emails sent to you by this Site (or otherwise by Progress) may utilize cookies, web beacons, embedded scripts or similar technologies. "Cookies" are text files that are placed on your computer and may be used to store your personal information. In addition to cookies, Progress may use other now known or later developed technologies to assist in observing the behavior of users visiting this Site.</p>
 
                     <p>
                         Offline Collection<br />

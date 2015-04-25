@@ -48,6 +48,7 @@
     <%{ %>
     <% foreach (var item in Model)
        { %>
+    
               <% if (Convert.ToDecimal(item.Lng) != 0 && Convert.ToDecimal(item.Lat) != 0)
                  { %>
     var propaddr = "<%= Html.Encode(item.Street) %>";
@@ -66,7 +67,8 @@
                 "marker-color": "#79d114",
                 "marker-size": "large",
                 "city": "<%= Html.Encode(item.Street) %>",
-                "marker-symbol": "building"
+                "marker-symbol": "circle"
+
             }
         },
     ];
@@ -93,6 +95,7 @@
 
         var marker = e.layer,
             feature = marker.feature;
+        //marker.setIcon(L.icon(feature.properties.icon));
         // Create custom popup content
         var popupContent = '<a class="popup" target="_parent" href="' + feature.properties.url2 + '">' +
                                 '<img onerror="imageError(this)" src="' + feature.properties.image + '" width="290" height="200" style="padding-right:10px" />' +
@@ -106,13 +109,13 @@
     myLayer.setGeoJSON(geojsonfinal);
 
     mapTooltips.scrollWheelZoom.enable();
-
+    mapTooltips.boxZoom.enable();
     mapTooltips.openPopup();
     mapTooltips.doubleClickZoom.enable();
 
 </script>
 <script>
-   
+
     function imageError(element) {
         element.onerror = '';
         element.src = '/Images/Siteimages/DefaultImage.png';

@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
+    
     <style>
         .DefaultImage {
             background-image: url("../Images/SiteImages/DefaultImage.png");
@@ -142,7 +142,7 @@ REMOVE THIS DIV
         <div class="community">
             <div class="inner">
                 <h2>Your Home. Your Community.</h2>
-                <p>Over 75% of our homes are in master-planned communities, and we pay the fees so you can enjoy all the amenities with none of the headaches. Come home to Progress Residential.</p>
+                <p>Over 75% of our homes are in master-planned communities, and we pay the fees so you can enjoy all the amenities with none of the headaches. Come home to Progress Residential.</p>
             </div>
         </div>
 
