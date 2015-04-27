@@ -129,7 +129,13 @@ namespace Progress.Rental.Controllers
 
             }
             Session.Add("Nextcount", 2);
+            if (Request.Browser.IsMobileDevice)
+            {
+                return View("MobileRedirecting");
+            }
+
             return View(aa);
+
         }
 
         public ActionResult HomeIndex()

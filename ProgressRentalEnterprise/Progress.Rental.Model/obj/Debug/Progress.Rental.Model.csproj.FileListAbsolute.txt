@@ -119,3 +119,9 @@ F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Mode
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Model\bin\Debug\AWSSDK.dll
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Model\obj\Debug\Progress.Rental.Model.dll
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Model\obj\Debug\Progress.Rental.Model.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\bin\Debug\Progress.Rental.Model.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\bin\Debug\Progress.Rental.Model.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\bin\Debug\AWSSDK.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\obj\Debug\Progress.Rental.Model.csprojResolveAssemblyReference.cache
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\obj\Debug\Progress.Rental.Model.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Model\obj\Debug\Progress.Rental.Model.pdb

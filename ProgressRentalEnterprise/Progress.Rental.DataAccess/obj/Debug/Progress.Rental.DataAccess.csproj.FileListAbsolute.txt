@@ -194,3 +194,11 @@ F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Data
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.csprojResolveAssemblyReference.cache
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.dll
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\bin\Debug\Progress.Rental.DataAccess.dll.config
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\bin\Debug\Progress.Rental.DataAccess.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\bin\Debug\Progress.Rental.DataAccess.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\bin\Debug\Progress.Rental.Model.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\bin\Debug\Progress.Rental.Model.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.csprojResolveAssemblyReference.cache
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.DataAccess\obj\Debug\Progress.Rental.DataAccess.pdb

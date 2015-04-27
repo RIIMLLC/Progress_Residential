@@ -454,6 +454,7 @@
     <Content Include="bin\Progress.Rental.dll.config" />
     <Content Include="Documents\Progress_Residential_Application.pdf" />
     <Content Include="Documents\Resident_Help.pdf" />
+    <Content Include="Documents\Rental Qualification Criteria &amp; Lease Administration %282015-04-24%29.pdf" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="GoogleMaps.LocationServices.readme.txt" />
     <Content Include="Images\1.jpg" />
@@ -727,6 +728,7 @@
     <Content Include="Views\Home\IndexOld.aspx" />
     <Content Include="Views\Home\Index1.aspx" />
     <Content Include="Views\Home\Map_index.aspx" />
+    <Content Include="Views\Home\MobileRedirecting.aspx" />
     <Content Include="Views\Home\Term.aspx" />
     <Content Include="Views\Home\TermOld.aspx" />
     <Content Include="Views\Home\Testing.aspx" />

@@ -62,7 +62,7 @@
                             <ul class="nav navbar-nav pull-right" style="padding-right: 80px;">
                                 <li>
 
-                                    <a href="../Documents/Progress_Residential_Application.pdf" target="_blank">Apply</a>
+                                    <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
 
                                     <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -317,7 +317,21 @@ REMOVE THIS DIV
     <script src="../../Scripts/jquery-1.7.1.min.js"></script>
     <script src="../../Scripts/jquery-ui-1.8.20.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+
+
+        $(document).bind("pagebeforeload", function (e, data) {
+
+            console.log("pagebeforeload starting"); // NO LOGGING HAPPENING 
+            window.location.href = "otherPage.html";
+
+            e.preventDefault();
+
+            data.deferred.resolve(data.absUrl, data.options, response.page);
+
+        });
+
+
+        $(window).load(function () {
             //var uagent = navigator.userAgent.toLowerCase();
             //if (uagent.search("iphone") > -1)
             //    document.write("<b><center><font size='5'>Please view our website on your desktop or laptop. Thank you.</font></center></b>");
@@ -334,13 +348,7 @@ REMOVE THIS DIV
             //else if (uagent.search("lg") > -1)
             //    document.write("<b><center><font size='5'>Please view our website on your desktop or laptop. Thank you.</font></center></b>");
             //else
-            //    return true;
-
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                document.write("<b><center><font size='5'>Please view our website on your desktop or laptop. Thank you.</font></center></b>");
-            }
-            else
-                return true;
+            //    return true;         
 
 
         });

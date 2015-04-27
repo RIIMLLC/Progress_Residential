@@ -113,7 +113,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                         <ul class="nav navbar-nav alt pull-right">
                             <li>
 
-                                <a href="../Documents/Progress_Residential_Application.pdf" target="_blank">Apply</a>
+                                <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
 
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -188,7 +188,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                             <br />
                             <%: Model.Property.Sqft %> Sq Ft</h3>
                         <h3 class="  fbold fsize14" style="text-align: left; color: #555555;">Built in 2004</h3>
-                        <a href="../Documents/Progress_Residential_Application.pdf" target="_blank" class=" btn btn-green ftypeca fbold fsize18 bbord" style="width: 100%;">APPLY NOW</a>
+                        <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank" class=" btn btn-green ftypeca fbold fsize18 bbord" style="width: 100%;">APPLY NOW</a>
 
                         <h3 class="  fbold fsize14" style="text-align: left; color: #555555; margin-top: 20px;">
                             <img src="../../images/ph.png" class="phone-icon">1 - 888 - 878 - 5016</h3>

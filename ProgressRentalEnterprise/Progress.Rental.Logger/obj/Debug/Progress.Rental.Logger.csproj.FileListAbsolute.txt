@@ -161,3 +161,16 @@ F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logg
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
 F:\Approved_Code_base_by_Vijay_raj\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll.config
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Progress.Rental.Logger.pdb
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb
