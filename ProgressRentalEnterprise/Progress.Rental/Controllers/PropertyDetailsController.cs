@@ -159,7 +159,7 @@ namespace Progress.Rental.Controllers
             IEnumerable<Properties> aa = null;
             try
             {
-                //Modfied for Schools - Babuna
+                
                 string Address = "";
                 string City = "";
                 string State = "";
@@ -187,12 +187,12 @@ namespace Progress.Rental.Controllers
                                             li.ImagePath,
                                             li.Market,
                                             li.MarketArea,
-                                            //Modfied for Schools - Babuna
+                                            
                                             li.City,
                                             li.States,
                                             li.Zip,
                                             li.LongDescription,
-                                            // Modified By Abdul for Long and Lat values
+                                           
                                             li.Lat,
                                             li.Lng
 
@@ -208,7 +208,7 @@ namespace Progress.Rental.Controllers
                                 Armakt = _lst[0].MarketArea.Split(' ');
                             }
                             string filePaths = Server.MapPath(ConfigurationManager.AppSettings["DynamicImageFolder"] + "/" + Armakt[0].ToString() + "/" + _lst[0].PropertyId);
-                            //int unicornName = Convert.ToInt32(Request.QueryString["p"].ToString());
+                            
                             ViewBag.ImgCount = CheckImageCount(Armakt[0].ToString(), _lst[0].PropertyId.ToString());
                             if (Directory.Exists(filePaths))
                             {
@@ -233,7 +233,7 @@ namespace Progress.Rental.Controllers
                                 ViewBag.baths = _lst[0].Baths;
                                 string market = string.Empty;
                                 ViewBag.PropStates = _lst[0].States;
-                                //Modfied for Schools - Babuna
+                                
                                 Address = _lst[0].Street;
                                 City = _lst[0].City;
                                 State = _lst[0].States;
@@ -314,12 +314,12 @@ namespace Progress.Rental.Controllers
                                         li.ImagePath,
                                         Mar = li.Market,
                                         MarAr = li.MarketArea,
-                                        //Modfied for Schools - Babuna
+                                        
                                         li.City,
                                         li.States,
                                         li.Zip,
                                         li.LongDescription,
-                                        // Modified for Abdul 
+                                        
                                         li.Lat,
                                         li.Lng
                                     }).ToList();
@@ -336,15 +336,7 @@ namespace Progress.Rental.Controllers
                             Armarket = _lst[0].MarAr.Split(' ');
                         }
                         string filePaths = Server.MapPath(ConfigurationManager.AppSettings["DynamicImageFolder"] + "/" + Armarket[0].ToString() + "/" + unicornName);
-
-                        // tried code by Abdul start here
-                        //  DirectoryInfo directoryInfo = new DirectoryInfo(filePaths + "/picture004.jpg");
-                        //filePaths = ConfigurationManager.AppSettings["Url"] + ConfigurationManager.AppSettings["BaseImageFolder"] + "/" + Armarket[0].ToString() + "/" + unicornName + "/picture004.jpg";
-                        //Url.Content(filePaths);
-                        //string file2 = Request.ApplicationPath + ConfigurationManager.AppSettings["DynamicImageFolder"] + "/" + Armarket[0].ToString() + "/" + unicornName + "/picture004.jpg";
-                        // ViewBag.Imagepath2 = directoryInfo;
-
-                        // end here
+                        
                         Load_Sec_images(Armarket[0].ToString(), unicornName.ToString());
                         ViewBag.ImgCount = CheckImageCount(Armarket[0].ToString(), unicornName.ToString());
                         if (Directory.Exists(filePaths))
@@ -385,14 +377,13 @@ namespace Progress.Rental.Controllers
                             ViewBag.City = _lst[0].City;
                             ViewBag.PropStates = _lst[0].States;
                             ViewBag.LongDescription = _lst[0].LongDescription;
-                            //  
-                            //Modfied for Schools - Babuna
+                            
                             Address = _lst[0].Street;
                             City = _lst[0].City;
                             State = _lst[0].States;
                             ZIP = _lst[0].Zip;
                             ViewBag.ZIP = _lst[0].Zip;
-                            // modiefied By Abdul for Lat Long values from Db
+                           
                             ViewBag.Market = _lst[0].Mar;
 
                         }
@@ -410,7 +401,7 @@ namespace Progress.Rental.Controllers
                     }
                 }
                 List<Properties> simlrProp = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.LoadSimilarHomes(ViewBag.beds, ViewBag.baths, ViewBag.Market, ViewBag.PropStates, ViewBag.ZIP, Convert.ToInt32(PropertyId));
-                // new code for similar homes          //   List<Properties> simlrProp = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.LoadSimilarHomesNew(ViewBag.beds, ViewBag.baths, ViewBag.City, ViewBag.PropStates, ViewBag.ZIP);
+                
                 Session["Similarhomes"] = simlrProp;
 
                 foreach (var pp in simlrProp)
@@ -523,12 +514,9 @@ namespace Progress.Rental.Controllers
             List<string> secondaryImages = new List<string>();
             string heroImagePath = "";
 
-            //added new code by abdul
-            List<bool> IsImageAvail = new List<bool>();
-            // end
-
-
-            List<schoolDetails> schoolList = null;
+            
+            List<bool> IsImageAvail = new List<bool>();        
+             List<schoolDetails> schoolList = null;
             PropertyAmenities amenities = null;
             string URL = " ";
             try
@@ -558,13 +546,7 @@ namespace Progress.Rental.Controllers
 
                                 try
                                 {
-                                    /*
-                                    DirectoryInfo dInfoHeroImage = new DirectoryInfo(Server.MapPath(heroImagePathExistance));
-                                    if (dInfoHeroImage.Exists == true && dInfoHeroImage.Exists == true)
-                                    {
-                                        heroImagePath = ConfigurationManager.AppSettings["Url"].ToString() + ConfigurationManager.AppSettings["BaseImageFolder"].ToString() + "/" + property.Market.ToString().Trim() + "/" + property.PropertyId.ToString().Trim() + "/" + ConfigurationManager.AppSettings["Imagename"].ToString();
-                                    }
-                                    */
+                                    
                                     if (System.IO.File.Exists(Server.MapPath(heroImagePathExistance)))
                                     {
                                         heroImagePath = ConfigurationManager.AppSettings["Url"].ToString() + ConfigurationManager.AppSettings["BaseImageFolder"].ToString() + "/" + property.Market.ToString().Trim() + "/" + property.PropertyId.ToString().Trim() + "/" + ConfigurationManager.AppSettings["Imagename"].ToString();
@@ -732,7 +714,6 @@ namespace Progress.Rental.Controllers
                     bathroom = "";
 
                 ViewBag.Message = "Home Page";
-
                 List<Properties> prop = (List<Properties>)Session["hai"];
                 propfilter = new List<Properties>();
 
@@ -766,10 +747,10 @@ namespace Progress.Rental.Controllers
                                     li.Baths,
                                     li.City,
                                     li.States,
-                                    // added by abdul kader to check for dynamic map relevant to filter
+                                    
                                     li.Lng,
                                     li.Lat,
-                                    // added by abdul for map loading problem in filter search
+                                   
                                     li.ImagePath
                                 }).ToList();
 
@@ -786,13 +767,12 @@ namespace Progress.Rental.Controllers
                             property.Baths = item.Baths;
                             property.City = item.City;
                             property.States = item.States;
-                            // added by abdul kader
+                          
                             property.Lng = item.Lng;
                             property.Lat = item.Lat;
-                            // end here
-                            //added by abdul kader on 24_04_2015 for map loading problem after filter search
+                            
                             property.ImagePath = item.ImagePath;
-                            // end here
+                          
                             propfilter.Add(property);
                         }
                     }
@@ -1150,7 +1130,7 @@ namespace Progress.Rental.Controllers
                                     li.Baths,
                                     li.City,
                                     li.States,
-                                    // added by abdul kader to check for dynamic map relevant to filter
+                                    
                                     li.Lng,
                                     li.Lat,
                                     li.ImagePath
@@ -1169,13 +1149,12 @@ namespace Progress.Rental.Controllers
                             property.Baths = item.Baths;
                             property.City = item.City;
                             property.States = item.States;
-                            // added by abdul kader
+                            
                             property.Lng = item.Lng;
                             property.Lat = item.Lat;
-                            // end here
-                            //added by abdul kader on 24_04_2015 for map loading problem after filter search
+                           
                             property.ImagePath = item.ImagePath;
-                            // end here
+                           
                             propfilter.Add(property);
                         }
                     }

@@ -36,7 +36,8 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                                 <div class="zooom" id="divZoom">
                                     <input type="submit" style="border: none; color: transparent; background-color: transparent; height: 27px; width: 24px; margin-top: -16px;" value="" />
                                 </div>
-                                <input id="txtSearch" name="txtSearch" type="text" class="seearch input" style="color: #000 !important">
+                                <input id="txtSearch" value="City, State" onfocus="this.value = this.value=='City, State'?' ':this.value;"
+                                    onblur="this.value = this.value==' '?'City, State':this.value;" class="seearch input" name="txtSearch" type="text" class="seearch input" style="color: #000 !important">
                             </div>
                             <!--searchfield-->
                         </div>
@@ -51,7 +52,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                         <ul class="nav navbar-nav alt pull-right">
                             <li>
 
-                                <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
+                                <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank">Apply</a>
 
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -114,4 +115,26 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="ScriptsSection" runat="server">
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //$("form").submit(function (e) {
+            //    var text_1 = document.getElementById('txtSearch').value
+            //    if (text_1 == "City, State" || text_1 == " " || text_1 == "") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
+            //});
+
+            //$("#txtSearch").focus(function () {
+            //    if ($(this).val() == "City, State")
+            //        $(this).val('');
+            //});
+            //$("#txtSearch").blur(function () {
+            //    if ($(this).val() == "")
+            //        $(this).val('City, State');
+            //});
+
+        });
+    </script>
 </asp:Content>

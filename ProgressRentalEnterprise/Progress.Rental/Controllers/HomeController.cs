@@ -28,22 +28,7 @@ namespace Progress.Rental.Controllers
             string ip = "";
             try
             {
-                //ip = Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
-                //if (ip == "" || ip == null)
-                //    ip = Request.ServerVariables["REMOTE_ADDR"];
-
-                //if (string.IsNullOrEmpty(ip))
-                //{
-                //    ip = Server.HtmlEncode(Request.UserHostAddress);
-                //}
-
-                //XmlDocument doc = new XmlDocument();
-                //string getdetails = "http://freegeoip.net/xml/" + ip;
-                //doc.Load(getdetails);
-                //XmlNodeList nodeLstCity = doc.GetElementsByTagName("City");
-                //XmlNodeList nodeLstregion = doc.GetElementsByTagName("RegionCode");
-                //city = nodeLstCity[0].InnerText;
-                //state = nodeLstregion[0].InnerText;
+               
             }
             catch (Exception ex)
             {
@@ -54,7 +39,7 @@ namespace Progress.Rental.Controllers
             IEnumerable<Properties> aa = null;
             try
             {
-                //List<Properties> properties = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.LoadDashboard(city, state);
+                
                 List<Properties> properties = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.LoadFeaturedHome(city, state);
                 foreach (var pp in properties)
                 {
@@ -106,21 +91,11 @@ namespace Progress.Rental.Controllers
                     }
                     bb.Add(b);
                     count++;
-                }
-
-                //if (string.IsNullOrEmpty(city) && string.IsNullOrEmpty(state))
-                //{
-                //    city = "";
-                //}
-                //else
-                //{
-                //    city = city + ", " + state;
-                //}
+                }            
 
                 ViewBag.city = ConfigurationManager.AppSettings["DefaultSearchString"].ToString();
                 ViewBag.IP = ip;
-                ViewBag.LonValue = "8.73";
-                ViewBag.LatiValue = "77.70";
+                
             }
             catch (Exception ex1)
             {
@@ -228,40 +203,6 @@ namespace Progress.Rental.Controllers
             ViewBag.Message = "";
             return View();
         }
-
-        public static List<string> SearchCustomers(string prefixText, int count, string contextKey)
-        {
-            using (SqlConnection conn = new SqlConnection())
-            {
-                conn.ConnectionString = ConfigurationManager
-                        .ConnectionStrings["constr"].ConnectionString;
-                using (SqlCommand cmd = new SqlCommand())
-                {
-                    string cmdText = "select ContactName from Customers where " +
-                    "ContactName like @SearchText + '%'";
-                    cmd.Parameters.AddWithValue("@SearchText", prefixText);
-                    if (contextKey != "0")
-                    {
-                        cmdText += " and Country = @Country";
-                        cmd.Parameters.AddWithValue("@Country", contextKey);
-                    }
-                    cmd.CommandText = cmdText;
-                    cmd.Connection = conn;
-                    conn.Open();
-                    List<string> customers = new List<string>();
-                    using (SqlDataReader sdr = cmd.ExecuteReader())
-                    {
-                        while (sdr.Read())
-                        {
-                            customers.Add(sdr["ContactName"].ToString());
-                        }
-                    }
-                    conn.Close();
-                    return customers;
-                }
-            }
-        }
-
         public JsonResult AutoCompleteCountry(string term)
         {
             List<AutoComplete> result = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.AutoComplete(term);

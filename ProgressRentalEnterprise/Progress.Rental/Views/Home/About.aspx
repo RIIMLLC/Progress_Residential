@@ -25,14 +25,15 @@
                     <a class="navbar-brand" href="../Home">
                         <img src="../../Images/SiteImages/color_logo1.png" class="img-responsive"></a>
                 </div>
-                <form novalidate class="form-inline" role="form" action="LoadPropertes/" method="get">
+                <form id="form1" novalidate class="form-inline" role="form" action="LoadPropertes/" method="get">
                     <div class="form-group form-group1">
                         <div class="input-group" style="width: 350px;">
                             <div class="searchfield">
                                 <div class="zooom" id="divZoom">
                                     <input type="submit" style="border: none; color: transparent; background-color: transparent; height: 27px; width: 24px; margin-top: -16px;" value="" />
                                 </div>
-                                <input id="txtSearch" name="txtSearch" type="text" class="seearch input" style="color: #000 !important">
+                                <input id="txtSearch" name="txtSearch" type="text" value="City, State" onfocus="this.value = this.value=='City, State'?' ':this.value;"
+                                    onblur="this.value = this.value==' '?'City, State':this.value;" class="seearch input" style="color: #000 !important">
                             </div>
                             <!--searchfield-->
                         </div>
@@ -48,7 +49,7 @@
                         <ul class="nav navbar-nav alt pull-right">
                             <li>
 
-                                <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
+                                <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank">Apply</a>
 
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -87,11 +88,11 @@
                     <br>
                     <br>
                     We are one of the largest providers of high quality single-family rental homes in the United States, with homes in the country’s fastest growing markets. Our corporate office is located in Scottsdale, Arizona. We also have regional offices in Tampa, Las Vegas, Dallas, Houston, and Atlanta, and we’re continuing to expand, making Progress every day.<br>
-                    <br> 
+                    <br>
                     Our experienced, knowledgeable, performance-oriented team is devoted to providing red-carpet customer care to help make finding, moving into, and living in a rental home an easy process—and an enjoyable one, too. Our mission is to provide the highest quality service to our future and current residents, employees, and investors through professionalism, integrity, and responsiveness.<br />
                     <br />
                     We are committed to creating a new way of living in the 21<sup>st</sup> century. We believe that we have a home for every lifestyle, and we can’t wait to show you how Progress starts here.
-            </h4>
+                </h4>
             </div>
         </div>
 
@@ -280,14 +281,17 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
-            //$("#txtSearch").focus(function () {
-            //    if ($(this).val() == "Search Properties")
-            //        $(this).val('');
+
+            //$("#form1").submit(function (e) {
+            //    var text_1 = document.getElementById('txtSearch').value
+            //    if (text_1 == "City, State" || text_1 == " " || text_1 == "") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
             //});
-            //$("#txtSearch").blur(function () {
-            //    if ($(this).val() == "")
-            //        $(this).val('Search Properties');
-            //});
+
+
+
 
             //$("#txtSearchNext").focus(function () {
             //    if ($(this).val() == "Search Properties")
@@ -301,13 +305,25 @@
 
             $('#btnSearch').click(function () {
                 var searchString = $('#txtSearchNext').val();
+                
+                //if (searchString == "City, State" || searchString == " " || searchString == "") {
+                //    // e.preventDefault();
+                //}
+                //else {
                 var url = '<%=Url.Action("Index", "PropertyDetails", new { s = "__id__" })%>';
                 window.location.href = url.replace('__id__', searchString);
+                //}
             });
             $('#divZoom').click(function () {
                 var searchString = $('#txtSearch').val();
+                
+                //if (searchString == "City, State" || searchString == " " || searchString == "") {
+                //    // e.preventDefault();
+                //}
+                //else {
                 var url = '<%=Url.Action("Index", "PropertyDetails", new { s = "__id__" })%>';
                 window.location.href = url.replace('__id__', searchString);
+                //}
             });
 
         });

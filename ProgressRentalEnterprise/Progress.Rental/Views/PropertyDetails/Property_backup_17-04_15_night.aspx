@@ -94,7 +94,7 @@
                                 <div class="zooom">
                                     <input type="submit" style="border: none; color: transparent; background-color: transparent; height: 27px; width: 24px; margin-top: -16px;" value="" />
                                 </div>
-                                <%--removed viewbag.URL by abdul by the assist of vijay raj on--%>
+                                
                                 <input name="s" id="inputGroup" value="<%=ViewBag.URL %>" type="text" class="seearch input" style="color: #000 !important;">
                             </div>
                             <!--searchfield-->
@@ -176,9 +176,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                     <div id='map-tooltips' class='map' style="width: 660px; height: 355px;"></div>
                 </div>
                 <div class="detail-sidebar col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <!-- START SMALL IMAGE -->
-                    <%--secoundary image removed by abdul by the assist of vijay raj on 14-04_15--%>
-                    <!-- END SMALL IMAGE -->
+                    
 
                     <div class="bghelp">
                         <h3 class="price">$<%: Model.Property.MarketRent %> <span><%: Model.Property.Beds %> BR / <%: Model.Property.Baths %> BA</span></h3>
@@ -198,15 +196,14 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
         </div>
     </div>
 
-    <%--code was removed by Abdul by the assist of vijay raj on 14_04_15--%>
+   
 
     
     </div>
 
     <%} %>
 
-    <!--Display the similar Homes even if the property has no value -->
-    <%--similar homes code was removed by abdul by assists of vijay raj on 14-04_15--%>
+   
     <%} %>
     <%else
       { %>

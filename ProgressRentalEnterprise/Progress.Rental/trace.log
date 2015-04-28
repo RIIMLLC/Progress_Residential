@@ -12821,3 +12821,795 @@ Win32 ThreadId:3820
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:11:48 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-2-130746822016357624
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1016
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:14:05 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-3-130746824138112905
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7024
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:19:16 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-4-130746827196651849
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:20:59 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-5-130746828256972451
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:48:13 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-8-130746838768145593
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4492
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:49:07 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-8-130746838768145593
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:50:36 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-8-130746838768145593
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 08:56:49 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1183
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-10-130746849383720104
+
+ProcessId: 7980
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 11:01:30 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch(String min, String max, String bedroom, String bathroom) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 808
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-1-130746923947158791
+
+ProcessId: 6400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 11:02:41 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch(String min, String max, String bedroom, String bathroom) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 808
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-1-130746923947158791
+
+ProcessId: 6400
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 11:05:25 AM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch(String min, String max, String bedroom, String bathroom) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 808
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-1-130746926499663225
+
+ProcessId: 8080
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12004
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 12:21:59 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-2-130746972883681670
+
+ProcessId: 6848
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9104
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 12:24:14 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-3-130746974227337062
+
+ProcessId: 6848
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:25:46 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-4-130747011024329339
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9824
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:27:21 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-5-130747012190031972
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:28:41 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-6-130747012946178961
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11580
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:32:36 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-7-130747015313431017
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:48:29 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-11-130747024853714760
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 01:53:48 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-14-130747027956463444
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 02:31:46 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-18-130747050515083856
+
+ProcessId: 9736
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3948
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 03:09:26 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-4-130747073399644673
+
+ProcessId: 7024
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6356
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2015 04:15:26 PM
+
+Message: ERROR MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+STACKTRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Progress.Rental.Controllers.PropertyDetailsController.FilterSearch_index(String min, String max, String bedroom, String bathroom, IEnumerable`1 propty) in e:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\Controllers\PropertyDetailsController.cs:line 1182
+
+ADDITIONAL INFO: None
+
+Category: General
+
+Priority: 1
+
+EventId: 100
+
+Severity: Error
+
+Title:
+
+Machine: HOME
+
+App Domain: /LM/W3SVC/3/ROOT-1-130747112942072673
+
+ProcessId: 9364
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9728
+
+Extended Properties: 
+----------------------------------------

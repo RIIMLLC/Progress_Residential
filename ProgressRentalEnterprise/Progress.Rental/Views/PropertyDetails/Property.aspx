@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/ProgressMain.Master" Inherits="System.Web.Mvc.ViewPage<Progress.Rental.Model.PropertyViewModel>" %>
+﻿2<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/ProgressMain.Master" Inherits="System.Web.Mvc.ViewPage<Progress.Rental.Model.PropertyViewModel>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
     Property
@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-   
+
     <link href="../../Content/cssOther/fervor-detail.css" rel="stylesheet" />
     <!-- Header -->
 
@@ -94,7 +94,7 @@
                                 <div class="zooom">
                                     <input type="submit" style="border: none; color: transparent; background-color: transparent; height: 27px; width: 24px; margin-top: -16px;" value="" />
                                 </div>
-                                <%--removed viewbag.URL by abdul by the assist of vijay raj on--%>
+                               
                                 <input name="s" id="inputGroup" value="<%=ViewBag.URL %>" type="text" class="seearch input" style="color: #000 !important;">
                             </div>
                             <!--searchfield-->
@@ -113,7 +113,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                         <ul class="nav navbar-nav alt pull-right">
                             <li>
 
-                                <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
+                                <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank">Apply</a>
 
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -146,10 +146,10 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
        { %>
     <div id="Div2">
         <div class="search_details_bn" style="text-align: center">
-         <% if (Model.Property.ImagePath != null)
+            <% if (Model.Property.ImagePath != null)
                {%>
-                 <img id="img" src="<%: Model.Property.ImagePath %>" style="height: 550px; width: 1000px;">
-            <%} %>            
+            <img id="img" src="<%: Model.Property.ImagePath %>" style="height: 550px; width: 1000px;">
+            <%} %>
         </div>
     </div>
 
@@ -176,9 +176,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                     <div id='map-tooltips' class='map' style="width: 660px; height: 355px;"></div>
                 </div>
                 <div class="detail-sidebar col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <!-- START SMALL IMAGE -->
-                    <%--secoundary image removed by abdul by the assist of vijay raj on 14-04_15--%>
-                    <!-- END SMALL IMAGE -->
+                    
 
                     <div class="bghelp">
                         <h3 class="price">$<%: Model.Property.MarketRent %> <span><%: Model.Property.Beds %> BR / <%: Model.Property.Baths %> BA</span></h3>
@@ -188,7 +186,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                             <br />
                             <%: Model.Property.Sqft %> Sq Ft</h3>
                         <h3 class="  fbold fsize14" style="text-align: left; color: #555555;">Built in 2004</h3>
-                        <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank" class=" btn btn-green ftypeca fbold fsize18 bbord" style="width: 100%;">APPLY NOW</a>
+                        <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank" class=" btn btn-green ftypeca fbold fsize18 bbord" style="width: 100%;">APPLY NOW</a>
 
                         <h3 class="  fbold fsize14" style="text-align: left; color: #555555; margin-top: 20px;">
                             <img src="../../images/ph.png" class="phone-icon">1 - 888 - 878 - 5016</h3>
@@ -198,15 +196,15 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
         </div>
     </div>
 
-    <%--code was removed by Abdul by the assist of vijay raj on 14_04_15--%>
+   
 
     
     </div>
 
     <%} %>
 
-    <!--Display the similar Homes even if the property has no value -->
-    <%--similar homes code was removed by abdul by assists of vijay raj on 14-04_15--%>
+    
+   
     <%} %>
     <%else
       { %>
@@ -273,9 +271,27 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
 
     <script type="text/javascript">
         $(document).ready(function () {
+
+            $("#inputGroup").focus(function () {
+                if ($(this).val() == "City, State")
+                    $(this).val('');
+            });
+            $("#inputGroup").blur(function () {
+                if ($(this).val() == "")
+                    $(this).val('City, State');
+            });
+
             $(".img").error(function () {
                 $(this).attr('src', '../Images/SiteImages/DefaultImage.png');
             });
+
+            //$("form").submit(function (e) {
+            //    var text_1 = document.getElementById('inputGroup').value
+            //    if (text_1 == "City, State" || text_1 == "") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
+            //});
         });
         function LoadSchools(selOption) {
             $.ajax({

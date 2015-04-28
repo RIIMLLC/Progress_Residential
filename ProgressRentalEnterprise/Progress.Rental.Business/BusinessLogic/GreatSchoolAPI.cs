@@ -151,13 +151,6 @@ namespace Progress.Rental.Business.BusinessLogic
                 {
                     return schools.school.OrderBy(x => x.distance).Take(5).ToList();
                 }
-                // babuna code was commented for getting sechools by grade filter
-                //start here
-                //if (schools.school != null)
-                //{
-                //    return schools.school.OrderBy(x => x.distance).Take(5).ToList();     // babuna code  
-                //}
-                // end here
             }
 
             return null;

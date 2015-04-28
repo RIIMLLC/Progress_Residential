@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
     <style>
         .DefaultImage {
             background-image: url("../Images/SiteImages/DefaultImage.png");
@@ -62,7 +62,7 @@
                             <ul class="nav navbar-nav pull-right" style="padding-right: 80px;">
                                 <li>
 
-                                    <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-24).pdf" target="_blank">Apply</a>
+                                    <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank">Apply</a>
 
                                     <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
@@ -88,13 +88,14 @@ REMOVE THIS DIV
 -->
                     <div class="col-7 center-block">
                         <div class="headw">Find <i>your</i> perfect home</div>
-                        <form novalidate role="form" action="PropertyDetails/" method="get">
+                        <form novalidate role="form" action="PropertyDetails/" method="get" id="form2">
                             <div>
 
                                 <!-- REMOVED INVALID BACKGROUND STYLE, AND ADDED TO CSS  -->
                                 <div class="Searchtext ">
 
-                                    <input id="s" name="s" type="text" style="padding: 1.60%; color: #FFF;" class="input">
+                                    <input id="s" name="s" type="text" value="City, State" onfocus="this.value = this.value=='City, State'?'':this.value;"
+                                        onblur="this.value = this.value==''?'City, State':this.value;" style="padding: 1.60%; color: #FFF;" class="input">
                                     <input class="searchButton input-group-addon btn btn-green ftypeca fbold fsize18 bbord tboxh60 " value="Search" type="submit">
                                 </div>
 
@@ -237,7 +238,7 @@ REMOVE THIS DIV
             <!-- FERVOR EDIT  - add clearfix to .search-panel2  -->
             <div class="search-panel2 clearfix">
 
-                <form novalidate class="form-inline" role="form" action="PropertyDetails/" method="get">
+                <form novalidate id="form1" class="form-inline" role="form" action="PropertyDetails/" method="get">
 
 
                     <div class="box_upcoming">
@@ -249,7 +250,8 @@ REMOVE THIS DIV
                             <div class="input-group">
 
                                 <!-- FERVOR EDIT  - Remove inline style  -->
-                                <input class="searchTextbox form-control marr ftypeca fbold fcolorBlack fsize16 input" id="citys" name="s" type="text">
+                                <input class="searchTextbox form-control marr ftypeca fbold fcolorBlack fsize16 input" id="citys" name="s" value="City, State" onfocus="this.value = this.value=='City, State'?'':this.value;"
+                                    onblur="this.value = this.value==''?'City, State':this.value;" type="text">
                             </div>
                         </div>
                         <% if (ViewBag.List != null)%>
@@ -264,7 +266,6 @@ REMOVE THIS DIV
                         <%} %>
 
                         <div class="form-group">
-
                             <input class="searchButton btn btn-green marl ftypeca fbold fsize14 bbord tboxw120" value="Search" type="submit">
                         </div>
                     </div>
@@ -291,34 +292,20 @@ REMOVE THIS DIV
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="ScriptsSection" runat="server">
-
     <script>
-     
-
-     
-
     </script>
-
     <%--  <link href="../../Content/cssOther/bootstrap.css" rel="stylesheet">
     <link href="../../Content/cssOther/styles.css" rel="stylesheet">
     <script src="../../Scripts/jsOther/bootstrap_002.js"></script>
 
     <script src="../../Scripts/jsOther/epw6hwg.js"></script>
     <script>try { Typekit.load(); } catch (e) { }</script>--%>
-
-
-
-
-
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script type="text/javascript" src="../../Scripts/jsOther/jquery.easing.1.3.js"></script>
     <!-- the jScrollPane script -->
     <script src="../../Scripts/jquery-1.7.1.min.js"></script>
     <script src="../../Scripts/jquery-ui-1.8.20.js"></script>
     <script type="text/javascript">
-
-
         $(document).bind("pagebeforeload", function (e, data) {
 
             console.log("pagebeforeload starting"); // NO LOGGING HAPPENING 
@@ -329,8 +316,6 @@ REMOVE THIS DIV
             data.deferred.resolve(data.absUrl, data.options, response.page);
 
         });
-
-
         $(window).load(function () {
             //var uagent = navigator.userAgent.toLowerCase();
             //if (uagent.search("iphone") > -1)
@@ -360,9 +345,50 @@ REMOVE THIS DIV
         $('#ca-container').contentcarousel();
     </script>
 
+    <script type="text/javascript">
+        $(document).ready(function (e) {
 
+            //$("#form1").submit(function (e) {
+            //    var text_1 = document.getElementById('citys').value
+            //    if (text_1 == "City, State") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
+            //    else if (text_1 == "") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
+            //});
+
+            //$("#form2").submit(function (e) {
+            //    var text_1 = document.getElementById('s').value
+            //    if (text_1 == "City, State" || text_1 == "") {
+            //        alert("Please Enter City and State");
+            //        e.preventDefault();
+            //    }
+
+            //});
+
+
+            //$("#s").focus(function () {
+            //    if ($(this).val() == "City, State")
+            //        $(this).val('');
+            //});
+            //$("#s").blur(function () {
+            //    if ($(this).val() == "")
+            //        $(this).val('City, State');
+            //});
+
+            //$("#citys").focus(function () {
+            //    if ($(this).val() == "City, State")
+            //        $(this).val('');
+            //});
+            //$("#citys").blur(function () {
+            //    if ($(this).val() == "")
+            //        $(this).val('City, State');
+            //});
+
+        });
+    </script>
     <ul style="z-index: 1; top: 0px; left: 0px; display: none;" aria-activedescendant="ui-active-menuitem" role="listbox" class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all"></ul>
-
-
-
 </asp:Content>

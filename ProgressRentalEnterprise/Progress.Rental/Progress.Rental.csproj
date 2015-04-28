@@ -455,6 +455,8 @@
     <Content Include="Documents\Progress_Residential_Application.pdf" />
     <Content Include="Documents\Resident_Help.pdf" />
     <Content Include="Documents\Rental Qualification Criteria &amp; Lease Administration %282015-04-24%29.pdf" />
+    <Content Include="Documents\15PR007-Screening-and-Application_v7_f-web.pdf" />
+    <Content Include="Documents\Rental Qualification Criteria &amp; Lease Administration %282015-04-28%29 - Fillable, FINAL.pdf" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="GoogleMaps.LocationServices.readme.txt" />
     <Content Include="Images\1.jpg" />
