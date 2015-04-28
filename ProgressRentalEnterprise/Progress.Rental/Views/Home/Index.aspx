@@ -62,7 +62,7 @@
                             <ul class="nav navbar-nav pull-right" style="padding-right: 80px;">
                                 <li>
 
-                                    <a href="../Documents/15PR007-Screening-and-Application_v7_f-web.pdf" target="_blank">Apply</a>
+                                    <a href="../Documents/Rental Qualification Criteria & Lease Administration (2015-04-28) - Fillable, FINAL.pdf" target="_blank">Apply</a>
 
                                     <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 

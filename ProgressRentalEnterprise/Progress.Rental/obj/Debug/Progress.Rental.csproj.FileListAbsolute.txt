@@ -219,14 +219,12 @@ E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Newt
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Business.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Logger.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Model.dll
-E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\RestSharp.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.DataAccess.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Dapper.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Business.pdb
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Logger.pdb
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.Model.pdb
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Newtonsoft.Json.xml
-E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\RestSharp.xml
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\bin\Progress.Rental.DataAccess.pdb
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\obj\Debug\Progress.Rental.csprojResolveAssemblyReference.cache
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental\obj\Debug\Progress.Rental.dll

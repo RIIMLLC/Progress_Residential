@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogic\GreatSchoolAPI.cs" />
     <Compile Include="BusinessLogic\ProgressDataSearch.cs" />
     <Compile Include="Common\ApplicationConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
