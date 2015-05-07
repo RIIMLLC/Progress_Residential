@@ -203,6 +203,12 @@ namespace Progress.Rental.Controllers
             ViewBag.Message = "";
             return View();
         }
+        public ActionResult LogIn()
+        {
+            ViewBag.Message = "";
+
+            return View();
+        }
         public JsonResult AutoCompleteCountry(string term)
         {
             List<AutoComplete> result = Progress.Rental.Business.BusinessLogic.ProgressDataSearch.AutoComplete(term);

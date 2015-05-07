@@ -53,9 +53,7 @@
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
                             </li>
-                            <li>
-                                <a href="https://progress.aptexx.com" target="_blank">Log In</a>
-                            </li>
+                            <li><%: Html.ActionLink("Log In", "LogIn", "Home") %></li>
                             <!-- <li><%: Html.ActionLink("Help", "Help", "Home") %></li> -->
                         </ul>
                         <!-- end nav pull-right -->
@@ -87,7 +85,7 @@
                     <br>
                     <b>If you have questions or need assistance</b>:
                 </p>
-               
+
 
                 <br>
                 <p>
@@ -130,7 +128,7 @@
 
             $('#divZoom').click(function () {
                 var searchString = $('#txtSearch').val();
-               
+
                 //if (searchString == "City, State" || searchString == " " || searchString == "") {
                 //    // e.preventDefault();
                 //}

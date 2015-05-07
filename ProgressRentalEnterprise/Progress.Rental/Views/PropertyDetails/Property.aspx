@@ -94,7 +94,7 @@
                                 <div class="zooom">
                                     <input type="submit" style="border: none; color: transparent; background-color: transparent; height: 27px; width: 24px; margin-top: -16px;" value="" />
                                 </div>
-                               
+
                                 <input name="s" id="inputGroup" value="<%=ViewBag.URL %>" type="text" class="seearch input" style="color: #000 !important;">
                             </div>
                             <!--searchfield-->
@@ -118,9 +118,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
                             </li>
-                            <li>
-                                <a href="https://progress.aptexx.com" target="_blank">Log In</a>
-                            </li>
+                            <li><%: Html.ActionLink("Log In", "LogIn", "Home") %></li>
                             <!-- <li><%: Html.ActionLink("Help", "Help", "Home") %></li> -->
                         </ul>
 
@@ -176,7 +174,7 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
                     <div id='map-tooltips' class='map' style="width: 660px; height: 355px;"></div>
                 </div>
                 <div class="detail-sidebar col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    
+
 
                     <div class="bghelp">
                         <h3 class="price">$<%: Model.Property.MarketRent %> <span><%: Model.Property.Beds %> BR / <%: Model.Property.Baths %> BA</span></h3>
@@ -196,15 +194,15 @@ FERVOR EDIT - Added .alt class to .navbar-brand or to the body tag to designate 
         </div>
     </div>
 
-   
 
-    
+
+
     </div>
 
     <%} %>
 
-    
-   
+
+
     <%} %>
     <%else
       { %>

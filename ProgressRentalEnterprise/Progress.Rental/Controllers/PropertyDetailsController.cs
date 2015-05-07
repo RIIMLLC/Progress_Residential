@@ -154,7 +154,7 @@ namespace Progress.Rental.Controllers
 
         }
 
-       
+
 
         public ActionResult Property()
         {
@@ -167,9 +167,9 @@ namespace Progress.Rental.Controllers
             List<string> secondaryImages = new List<string>();
             string heroImagePath = "";
 
-            
-            List<bool> IsImageAvail = new List<bool>();        
-             List<schoolDetails> schoolList = null;
+
+            List<bool> IsImageAvail = new List<bool>();
+            List<schoolDetails> schoolList = null;
             PropertyAmenities amenities = null;
             string URL = " ";
             try
@@ -199,7 +199,7 @@ namespace Progress.Rental.Controllers
 
                                 try
                                 {
-                                    
+
                                     if (System.IO.File.Exists(Server.MapPath(heroImagePathExistance)))
                                     {
                                         heroImagePath = ConfigurationManager.AppSettings["Url"].ToString() + ConfigurationManager.AppSettings["BaseImageFolder"].ToString() + "/" + property.Market.ToString().Trim() + "/" + property.PropertyId.ToString().Trim() + "/" + ConfigurationManager.AppSettings["Imagename"].ToString();
@@ -318,7 +318,7 @@ namespace Progress.Rental.Controllers
                 URL = Session["url"].ToString();
             }
             ViewBag.URL = URL;
-         
+
             ViewBag.AmenitiesDetails = amenities;
             Session["PropertyDetails_PropId"] = propertyID;
             return View(propertyViewModel);
@@ -346,7 +346,8 @@ namespace Progress.Rental.Controllers
                     bedroom = "";
                 if (bathroom == "Bathrooms")
                     bathroom = "";
-
+                if (bathroom.Contains("+"))
+                    bathroom = bathroom.Replace("+", ".5");
                 ViewBag.Message = "Home Page";
                 List<Properties> prop = (List<Properties>)Session["hai"];
                 propfilter = new List<Properties>();
@@ -381,10 +382,10 @@ namespace Progress.Rental.Controllers
                                     li.Baths,
                                     li.City,
                                     li.States,
-                                    
+
                                     li.Lng,
                                     li.Lat,
-                                   
+
                                     li.ImagePath
                                 }).ToList();
 
@@ -401,12 +402,12 @@ namespace Progress.Rental.Controllers
                             property.Baths = item.Baths;
                             property.City = item.City;
                             property.States = item.States;
-                          
+
                             property.Lng = item.Lng;
                             property.Lat = item.Lat;
-                            
+
                             property.ImagePath = item.ImagePath;
-                          
+
                             propfilter.Add(property);
                         }
                     }
@@ -694,7 +695,7 @@ namespace Progress.Rental.Controllers
                                     li.Baths,
                                     li.City,
                                     li.States,
-                                    
+
                                     li.Lng,
                                     li.Lat,
                                     li.ImagePath
@@ -713,12 +714,12 @@ namespace Progress.Rental.Controllers
                             property.Baths = item.Baths;
                             property.City = item.City;
                             property.States = item.States;
-                            
+
                             property.Lng = item.Lng;
                             property.Lat = item.Lat;
-                           
+
                             property.ImagePath = item.ImagePath;
-                           
+
                             propfilter.Add(property);
                         }
                     }

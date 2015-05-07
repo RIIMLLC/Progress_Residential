@@ -28,7 +28,7 @@
 </head>
 <body class="notransition no-hidden">
     <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-    
+
     <link href="../../Content/cssOther/bootstrap_002.css" rel="stylesheet">
     <link href="../../Content/cssOther/styles.css" rel="stylesheet">
     <link href="../../Content/cssOther/newsk.css" rel="stylesheet">
@@ -57,7 +57,8 @@
                         <div class="col-sm-4">
                             <div class="osLight footer-header">Log Ins</div>
                             <ul class="footer-nav pb20">
-                                <li><a href="https://progress.aptexx.com" target="_blank">Residents</a></li>
+                                <%--<li><a href="https://progress.aptexx.com" target="_blank">Residents</a></li>--%>
+                                <li><%: Html.ActionLink("Residents", "LogIn", "Home") %></li>
                             </ul>
                         </div>
                         <div class="col-sm-4">
@@ -70,7 +71,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="copyright fbold fsize14 opa8">© 2015 Progress Residential &nbsp;&nbsp;&nbsp;<a href="../Home/Term" class="fbold fsize14">Terms &amp; Privacy </a></div>
+                <div class="copyright fbold fsize14 opa8">
+                    © 2015 Progress Residential &nbsp;&nbsp;&nbsp;<a href="../Home/Term" class="fbold fsize14">Terms &amp; Privacy </a>
+                    &nbsp;&nbsp;&nbsp;
+                    <img src="../../Images/Fair Housing Logo.png" style="height: 21px; width: 23px; margin:0px 0px 5px -5px" />
+                </div>
             </div>
         </div>
     </div>

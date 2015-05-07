@@ -53,9 +53,10 @@
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
                             </li>
-                            <li>
+                           <%-- <li>
                                 <a href="https://progress.aptexx.com" target="_blank">Log In</a>
-                            </li>
+                            </li>--%>
+                             <li><%: Html.ActionLink("Log In", "LogIn", "Home") %></li>
                             <!-- <li><%: Html.ActionLink("Help", "Help", "Home") %></li> -->
                         </ul>
                         <!-- end nav pull-right -->
@@ -219,7 +220,7 @@
 					<br>
                     <a href="http://dev.rentprogress.com/" target="_blank">www.RentProgress.com</a>
                     <br />
-                    P.O. Box 4030
+                    P.O. Box 4090
                     <br />
                     Scottsdale, AZ 85261
                     <br />

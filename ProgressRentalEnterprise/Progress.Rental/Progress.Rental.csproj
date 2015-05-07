@@ -457,6 +457,7 @@
     <Content Include="Documents\Rental Qualification Criteria &amp; Lease Administration %282015-04-24%29.pdf" />
     <Content Include="Documents\15PR007-Screening-and-Application_v7_f-web.pdf" />
     <Content Include="Documents\Rental Qualification Criteria &amp; Lease Administration %282015-04-28%29 - Fillable, FINAL.pdf" />
+    <Content Include="Documents\Resident Services FAQs placeholder.pdf" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="GoogleMaps.LocationServices.readme.txt" />
     <Content Include="Images\1.jpg" />
@@ -498,6 +499,8 @@
     <Content Include="Images\Details_tab.png" />
     <Content Include="Images\Detail_Home_Banner.png" />
     <Content Include="Images\Email.png" />
+    <Content Include="Images\Fair Housing Logo.png" />
+    <Content Include="Images\Fair-Housing-Logo_CoolGrey7_Web.png" />
     <Content Include="Images\Homepage_3_24.jpg" />
     <Content Include="Images\Homepage_3_26.jpg" />
     <Content Include="Images\kitchen.png" />
@@ -610,8 +613,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\DropDown.js" />
-    <Content Include="Scripts\home.js" />
-    <Content Include="Scripts\infobox.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -642,8 +643,6 @@
     <Content Include="Scripts\jsOther\DropDown.js" />
     <Content Include="Scripts\jsOther\easing.js" />
     <Content Include="Scripts\jsOther\epw6hwg.js" />
-    <Content Include="Scripts\jsOther\home.js" />
-    <Content Include="Scripts\jsOther\infobox.js" />
     <Content Include="Scripts\jsOther\jquery-1.js" />
     <Content Include="Scripts\jsOther\jquery-1_002.js" />
     <Content Include="Scripts\jsOther\jquery-ui-1.js" />
@@ -678,8 +677,6 @@
     <Content Include="Scripts\js\DropDown.js" />
     <Content Include="Scripts\js\easing.js" />
     <Content Include="Scripts\js\epw6hwg.js" />
-    <Content Include="Scripts\js\home.js" />
-    <Content Include="Scripts\js\infobox.js" />
     <Content Include="Scripts\js\jquery-1.js" />
     <Content Include="Scripts\js\jquery-1_002.js" />
     <Content Include="Scripts\js\jquery-ui-1.js" />
@@ -720,6 +717,7 @@
     <Content Include="Views\Home\Help.aspx" />
     <Content Include="Views\Home\HomeIndex.ascx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\LogIn.aspx" />
     <Content Include="Views\Home\Map_index.aspx" />
     <Content Include="Views\Home\MobileRedirecting.aspx" />
     <Content Include="Views\Home\Term.aspx" />

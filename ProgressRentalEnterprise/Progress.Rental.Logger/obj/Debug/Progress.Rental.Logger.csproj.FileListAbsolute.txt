@@ -171,5 +171,6 @@ E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\b
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.csprojResolveAssemblyReference.cache
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.dll
 E:\GitHub\Progress_Residential\ProgressRentalEnterprise\Progress.Rental.Logger\obj\Debug\Progress.Rental.Logger.pdb

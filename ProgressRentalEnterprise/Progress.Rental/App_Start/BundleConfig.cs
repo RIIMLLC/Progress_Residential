@@ -12,9 +12,9 @@ namespace Progress.Rental
                         "~/Scripts/jquery.placeholder.js",
                         "~/Scripts/bootstrap.js",
                         "~/Scripts/jquery.touchSwipe.min.js",
-                        "~/Scripts/infobox.js",
+                        //"~/Scripts/infobox.js",
                         "~/Scripts/jquery.visible.js",
-                        "~/Scripts/home.js",
+                      //  "~/Scripts/home.js",
                         "~/Scripts/DropDown.js",
                         "~/Scripts/jquery.flexisel.js"));
 
@@ -33,8 +33,8 @@ namespace Progress.Rental
                         "~/Scripts/jsOther/bootstrap.js",
                         "~/Scripts/jsOther/ddmenu.js",
                         "~/Scripts/jsOther/bootstrap.min.js",
-                        "~/Scripts/jsOther/home.js",
-                        "~/Scripts/jsOther/infobox.js",
+                      //  "~/Scripts/jsOther/home.js",
+                        //"~/Scripts/jsOther/infobox.js",
                         "~/Scripts/jsOther/jquery.cycle.all.js",
                         "~/Scripts/jsOther/touchswipe.min.js",
                         "~/Scripts/jsOther/flexisel.js",

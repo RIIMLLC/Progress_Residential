@@ -54,9 +54,10 @@
                                 <!-- here added another HREF that takes relative path of the file and opens in the new 	tab, make it sure that 	Application.pdf is in the same directory as index.html-->
 
                             </li>
-                            <li>
+                            <%--<li>
                                 <a href="https://progress.aptexx.com" target="_blank">Log In</a>
-                            </li>
+                            </li>--%>
+                            <li><%: Html.ActionLink("Log In", "LogIn", "Home") %></li>
                             <!-- <li><%: Html.ActionLink("Help", "Help", "Home") %></li> -->
                         </ul>
 
@@ -201,7 +202,7 @@
 
                                     "Our commitment to our residents is what matters most to us. 
                                        Whether you have questions about our rental process or what it means to live in a planned community, we have experts available to help you
-                                        24/7/365. We believe that if we “wow” you every times, you’ll never want to leave."
+                                        24/7/365. We believe that if we “wow” you every time, you’ll never want to leave."
                                 </div>
                             </div>
 
@@ -305,7 +306,7 @@
 
             $('#btnSearch').click(function () {
                 var searchString = $('#txtSearchNext').val();
-                
+
                 //if (searchString == "City, State" || searchString == " " || searchString == "") {
                 //    // e.preventDefault();
                 //}
@@ -316,7 +317,7 @@
             });
             $('#divZoom').click(function () {
                 var searchString = $('#txtSearch').val();
-                
+
                 //if (searchString == "City, State" || searchString == " " || searchString == "") {
                 //    // e.preventDefault();
                 //}
